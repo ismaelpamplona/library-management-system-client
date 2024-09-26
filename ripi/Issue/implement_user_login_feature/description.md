@@ -4,9 +4,9 @@
   - [x] Create a `LoginUser.tsx` component inside `src/pages`.
   - [x] Write a test that expects this component to render a login form (email and password fields, and a submit button).
   - [x] Run the test to confirm it fails.
-- [ ] Implement the User Login form:
-  - [ ] Implement the form in the `LoginUser.tsx` component using Material-UI components.
-  - [ ] Make the test pass by ensuring the form renders correctly.
+- [x] Implement the User Login form:
+  - [x] Implement the form in the `LoginUser.tsx` component using Material-UI components.
+  - [x] Make the test pass by ensuring the form renders correctly.
 - [ ] Handle form submission with TDD:
   - [ ] Write a test that simulates form submission and checks if the form values are correctly captured.
   - [ ] Run the test to confirm it fails.
