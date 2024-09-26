@@ -1,5 +1,6 @@
-import { ThemeProvider } from '@mui/material/styles';
+import { Box, ThemeProvider } from '@mui/material';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
 import LoginUser from './pages/LoginUser';
 import RegisterUser from './pages/RegisterUser';
@@ -9,11 +10,16 @@ const AppRouter = () => {
   return (
     <ThemeProvider theme={theme}>
       <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/register" element={<RegisterUser />} />
-          <Route path="/login" element={<LoginUser />} />
-        </Routes>
+        <Box sx={{ display: 'flex' }}>
+          <Sidebar /> {/* Add the Sidebar here */}
+          <Box sx={{ flexGrow: 1, padding: '16px' }}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/register" element={<RegisterUser />} />
+              <Route path="/login" element={<LoginUser />} />
+            </Routes>
+          </Box>
+        </Box>
       </Router>
     </ThemeProvider>
   );
