@@ -4,13 +4,13 @@
   - [x] Install `react-router-dom`.
   - [x] Create a `Router` component to handle routes.
   - [x] Add a basic navigation structure with links for "Home" and "Register".
-- [ ] Create the User Registration page:
+- [x] Create the User Registration page:
   - [x] Create a `RegisterUser.tsx` component inside `src/pages`.
   - [x] Write a test that expects this component to render a registration form (username, email, password fields, and a submit button).
-  - [ ] Run the test to confirm it fails.
-- [ ] Implement the User Registration form:
-  - [ ] Implement the form in the `RegisterUser.tsx` component.
-  - [ ] Make the test pass by ensuring the form renders correctly.
+  - [x] Run the test to confirm it fails.
+- [x] Implement the User Registration form:
+  - [x] Implement the form in the `RegisterUser.tsx` component.
+  - [x] Make the test pass by ensuring the form renders correctly.
 - [ ] Handle form submission with TDD:
   - [ ] Write a test that simulates form submission and checks if the form values are correctly captured.
   - [ ] Run the test to confirm it fails.
