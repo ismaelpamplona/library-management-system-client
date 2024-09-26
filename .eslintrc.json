@@ -11,7 +11,8 @@
     "prettier/prettier": ["error"],
     "react/prop-types": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-explicit-any": "warn"
+    "@typescript-eslint/no-explicit-any": "warn",
+    "react/react-in-jsx-scope": "off" // Disable the rule that requires React in scope
   },
   "settings": {
     "react": {

@@ -1,1 +1,22 @@
 # implement_user_registration_feature (Issue)
+
+- [x] Set up routing for the application:
+  - [x] Install `react-router-dom`.
+  - [x] Create a `Router` component to handle routes.
+  - [x] Add a basic navigation structure with links for "Home" and "Register".
+- [ ] Create the User Registration page:
+  - [ ] Create a `RegisterUser.tsx` component inside `src/pages`.
+  - [ ] Write a test that expects this component to render a registration form (username, email, password fields, and a submit button).
+  - [ ] Run the test to confirm it fails.
+- [ ] Implement the User Registration form:
+  - [ ] Implement the form in the `RegisterUser.tsx` component.
+  - [ ] Make the test pass by ensuring the form renders correctly.
+- [ ] Handle form submission with TDD:
+  - [ ] Write a test that simulates form submission and checks if the form values are correctly captured.
+  - [ ] Run the test to confirm it fails.
+  - [ ] Implement form submission logic and ensure the test passes.
+- [ ] Integrate API call for user registration:
+  - [ ] Write a test that mocks an API call to register a new user.
+  - [ ] Run the test to confirm it fails.
+  - [ ] Implement the API call using `axios` in the `services` folder.
+  - [ ] Ensure the test passes and the user registration works correctly.
