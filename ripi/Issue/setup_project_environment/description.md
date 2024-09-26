@@ -8,13 +8,14 @@
 - [x] Configure ESLint and Prettier for code quality and formatting:
   - [x] Install ESLint and Prettier packages.
   - [x] Create configuration files (.eslintrc.json and .prettierrc).
-- [ ] Write an initial failing test:
-  - [ ] Create a simple "Hello, Library!" component.
-  - [ ] Write a test that expects this component to render correctly.
-  - [ ] Run the test to confirm it fails.
-- [ ] Implement the "Hello, Library!" component:
-  - [ ] Create the component to display "Hello, Library!".
-  - [ ] Make the test pass.
-- [ ] Set up Git repository:
-  - [ ] Initialize a Git repository.
-  - [ ] Create an initial commit with the basic project setup.
+- [x] Write an initial failing test:
+  - [x] Create a simple "Hello, Library!" component.
+  - [x] Write a test that expects this component to render correctly.
+  - [x] Run the test to confirm it fails.
+  - [x] Make all tests pass.
+- [x] Implement the "Hello, Library!" component:
+  - [x] Create the component to display "Hello, Library!".
+  - [x] Make the test pass.
+- [x] Set up Git repository:
+  - [x] Initialize a Git repository.
+  - [x] Create an initial commit with the basic project setup.
