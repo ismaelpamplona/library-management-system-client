@@ -5,8 +5,8 @@
   - [x] Create a `Router` component to handle routes.
   - [x] Add a basic navigation structure with links for "Home" and "Register".
 - [ ] Create the User Registration page:
-  - [ ] Create a `RegisterUser.tsx` component inside `src/pages`.
-  - [ ] Write a test that expects this component to render a registration form (username, email, password fields, and a submit button).
+  - [x] Create a `RegisterUser.tsx` component inside `src/pages`.
+  - [x] Write a test that expects this component to render a registration form (username, email, password fields, and a submit button).
   - [ ] Run the test to confirm it fails.
 - [ ] Implement the User Registration form:
   - [ ] Implement the form in the `RegisterUser.tsx` component.
