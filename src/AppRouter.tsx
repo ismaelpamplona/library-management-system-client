@@ -1,6 +1,7 @@
 import { Box, ThemeProvider } from '@mui/material';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
+import BooksList from './pages/BooksList';
 import Home from './pages/Home';
 import LoginUser from './pages/LoginUser';
 import RegisterUser from './pages/RegisterUser';
@@ -17,6 +18,7 @@ const AppRouter = () => {
               <Route path="/" element={<Home />} />
               <Route path="/register" element={<RegisterUser />} />
               <Route path="/login" element={<LoginUser />} />
+              <Route path="/books" element={<BooksList />} />
             </Routes>
           </Box>
         </Box>

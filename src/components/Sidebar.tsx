@@ -37,6 +37,14 @@ const Sidebar = () => {
             <ListItemText primary="Login" />
           </RouterLink>
         </ListItem>
+        <ListItem>
+          <RouterLink
+            to="/books"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <ListItemText primary="Books List" />
+          </RouterLink>
+        </ListItem>
       </List>
     </Box>
   );
